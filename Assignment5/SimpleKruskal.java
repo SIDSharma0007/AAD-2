@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class SimpleKruskal {
     static int[] parent = new int[10];
 
-    // Find the boss
+    // Find the boss.
     static int find(int i) {
         if (parent[i] == i) return i;
         return find(parent[i]);
