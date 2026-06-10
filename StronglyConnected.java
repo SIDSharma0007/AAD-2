@@ -10,7 +10,7 @@ public class StronglyConnected {
         boolean[] visited = new boolean[V];
         dfs(0, adj, visited);
 
-        // If any vertex is not visited, the graph is not strongly connected
+        // If any vertex is not visited, the graph is not strongly connected.
         for (boolean v : visited) {
             if (!v) return false;
         }
