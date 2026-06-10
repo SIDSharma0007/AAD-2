@@ -9,7 +9,7 @@ public class UnionFindCycle {
         }
     }
 
-    // Find the absolute top boss of a node
+    // Find the absolute top boss of a node.
     public int find(int i) {
         if (parent[i] == i)
             return i;
